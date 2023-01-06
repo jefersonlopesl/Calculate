@@ -6,6 +6,8 @@ public class Calculate {
             sum(x, y);
         } else if (args[0].equals("subtrair")) {
             minus(x,y);
+        } else {
+            System.out.println("Nenhuma instrucao definida");
         }
     }
     static void sum(int x,int y) {
